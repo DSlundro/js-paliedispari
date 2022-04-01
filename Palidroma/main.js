@@ -10,10 +10,10 @@ console.log(wordSplitted);
 // inverto la parola splittata
 let wordReversed = wordSplitted.reverse();
 console.log(wordReversed);
-// ricostruisco la parola invrsa e splittata
+// ricostruisco la parola inversa e splittata
 let wordRecostructed = wordReversed.join('');
 
-// inserisco la condizione per verificare se la parola iniziale e paroal finale siano uguali
+// inserisco la condizione per verificare se la parola iniziale e parola finale siano uguali
 if (userWord === wordRecostructed){
     console.log('La parola è palindroma');
 }
