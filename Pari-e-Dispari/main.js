@@ -58,7 +58,7 @@ console.log(`La somma dei numeri è ${sum} quindi è ${resultOddEven}`);
 /* Dichiariamo chi ha vinto. */
 let result;
 
-if (resultOddEven == userNumber) {
+if (resultOddEven == oddEven) {
     result = "Hai vinto!"
 } else {
     result = "Mi dispiace, hai perso"
